@@ -8,7 +8,7 @@ import App from './App.js';
 import { ContextProvider } from './contexts/ContextProvider.js'
 
 ReactDOM.render(
-    <BrowserRouter basename="/dashboard">
+    <BrowserRouter basename="/dash">
         <ContextProvider>
     <App />
 </ContextProvider>,
